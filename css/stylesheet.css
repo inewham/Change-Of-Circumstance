@@ -1,0 +1,101 @@
+/* 
+    Created on : 02-Nov-2018, 16:30:00
+    Author     : inewham
+*/
+
+#cont1{
+    border:solid black 1px;
+}
+img{
+    float: right;
+}
+
+h1{
+    text-align: center;
+}
+
+#r1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border-bottom: solid black 2px;
+}
+
+.headingBgColor{
+background-color: #CAE2CA;
+}
+
+#r2,
+#r3,
+#r2-c1-r1-c1,
+#r2-c2-r1-c1,
+#r3-c1-r1,
+#r4-c1-r1{
+    border-bottom: solid black 2px;
+}
+
+#r2-c1,
+#r2-c2,
+#r3-c1{
+    padding-bottom: 0.5rem;
+}
+
+.txtInput{
+    width: 100%;
+}
+
+#r4-c1-r1,
+#r2-c2-r1-c1,
+#r2-c1-r1-c1,
+#r3-c1-r1{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+#r4-c1-r12{
+    margin-bottom: 1rem;
+}
+
+.conDetails,
+.secConDetails,
+.proInfo,
+.backInfo{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.5rem;
+}
+
+.txtConDetails,
+.txtSecConDetails,
+.txtproInfo,
+.txtBackInfo{
+    width: 18rem;
+    margin-right: 0.5rem;
+}
+
+#r2-c1-r1-c1,
+#r2-c2-r1-c1,
+#r3-c1-r1,
+#r4-c1-r1{
+    margin-top: 0px;
+    padding-top: 8px;
+}
+
+.colConDetails{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.txtRightPadding{
+    padding-right: 1rem;
+}
+
+#cmdCont{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
