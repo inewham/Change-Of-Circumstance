@@ -99,3 +99,48 @@ background-color: #CAE2CA;
     margin-top: 1em;
     margin-bottom: 2em;
 }
+
+#r1,
+#r2{
+    padding-bottom: 1rem;
+}
+
+#r3-c1-r2,
+#r3-c1-r3,
+#r3-c1-r4,
+#r3-c1-r5,
+#r4-c1-r2,
+#r4-c1-r3,
+#r4-c1-r4,
+#r4-c1-r5,
+#r4-c1-r6,
+#r4-c1-r7,
+#r4-c1-r8,
+#r4-c1-r9,
+#r4-c1-r10,
+#r4-c1-r11,
+#r4-c1-r12{
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+@media screen and (max-width: 830px){
+  #r3-c1-r2,
+  #r3-c1-r3,
+  #r3-c1-r4,
+  #r3-c1-r5,
+  #r4-c1-r2,
+  #r4-c1-r3,
+  #r4-c1-r4,
+  #r4-c1-r5,
+  #r4-c1-r6,
+  #r4-c1-r7,
+  #r4-c1-r8,
+  #r4-c1-r9,
+  #r4-c1-r10,
+  #r4-c1-r11,
+  #r4-c1-r12{
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+}
